@@ -4,7 +4,7 @@ A demonstration of [zx](https://github.com/google/zx) with TypeScript.
 ## Usage
 ```zsh
 $ npm start
-> try-zx-with-typescript@1.0.0 start /Users/tachikawa/private/github-projects/try-zx-with-typescript
+> try-zx-with-typescript@1.0.0 start /Users/tachikawa/github-projects/try-zx-with-typescript
 > node --loader ts-node/esm script.ts
 
 (node:19293) ExperimentalWarning: --experimental-loader is an experimental feature. This feature could change at any time
