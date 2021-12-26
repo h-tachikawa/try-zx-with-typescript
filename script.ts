@@ -5,7 +5,7 @@ const YES = "y";
 
 $.verbose = false;
 const list: ProcessOutput = await $`ls -la`;
-console.log(chalk.cyanBright("This script has compiled by TypeScript."));
+console.log(chalk.magentaBright("This script has compiled by TypeScript."));
 const answer = await question("To run the script, please type 'y'", {
   choices: ["y", "N"],
 });
