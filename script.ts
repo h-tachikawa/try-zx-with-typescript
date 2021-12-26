@@ -12,4 +12,6 @@ const answer = await question("To run the script, please type 'y'", {
 
 if (answer === YES) {
   console.log(list.stdout);
+} else {
+  console.log("bye.");
 }
